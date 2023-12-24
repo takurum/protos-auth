@@ -34,5 +34,5 @@ message IsAdminRequest {
 }
 
 message IsAdminResponse {
-  int64 is_admin = 1;
+  bool is_admin = 1;
 }
